@@ -1,0 +1,70 @@
+
+.HiderDiv{
+
+    background-image: linear-gradient(90deg, rgb(2, 0, 79) 0%, rgb(9, 9, 121) 35%, rgb(0, 112, 255) 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divCv{
+    display: flex;
+
+
+}
+.Div_atributs_sv{
+
+    width: 350px;
+}
+.BtnBod{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .HiderDiv{display: block}
+    .first_div{ margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;}
+
+
+}
+@media only screen and (max-width: 1000px) {
+
+    h2{
+        box-sizing: border-box;
+    }
+
+html{
+    font-size: 10px;
+}
+
+
+    .divCv{
+        display: block;
+
+    }
+    .Div_atributs_sv{
+        margin: auto;
+        width: 50%;
+    }
+
+    .BtnBod{
+        margin: auto;
+        width: 50%;
+
+    }
+}
+
+.Div_atributs_sv p{
+color: rgb(153, 138, 255)
+}
+
+button{
+    background-color: rgb(0,190,155);
+    border: 2px solid #00000040;
+}
+
